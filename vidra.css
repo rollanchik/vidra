@@ -1,0 +1,149 @@
+body{
+    background-color: #2b2d42;
+    color: #edf2f4;
+    font-size: 30px;
+    margin: 0;
+}
+img{
+    width: 800px;
+}
+h1{
+    font-size: 50px;
+    color: red;
+}
+p{
+    padding: 10px 100px;
+}
+a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #edf2f4;
+    background-color: #ef233c;
+    padding: 0px 25px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #f36576;
+}
+.start{
+    display: flex;
+    align-items: center;
+    margin-right: 100px; 
+    height: 100vh;
+}
+.article{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.article div{
+    width: 30%;
+    margin-right: 30px;
+}
+.article img{
+    width: 100%;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+.w50{
+    width: 50%;
+}
+.text-center{
+     text-align: center;
+}
+.q{
+    display: flex;
+    margin-right: 100px;
+}
+.w{
+    display: flex;
+    margin-left: 100px;
+}
+.e{
+    display: flex;
+    margin-right: 100px;
+}
+.r{
+    display: flex;
+    margin-left: 100px;
+}
+.chess img{
+    height: 400px;
+    width: 600px;
+}
+.chess{
+    text-align: left;
+}
+.fruit{
+    margin: 300px;
+    margin-left: 350px;
+}
+.me{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    height: 800px;
+}
+.cube{
+    position: absolute;
+    transform-style: preserve-3d;
+    height: 100px;
+    width: 100px;
+    left: 800px;
+    cursor: pointer;
+}
+.face{
+    background-color: #ef233c;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+.align-start{
+    align-items: start;
+}
+.right{
+    transform: rotateY(90deg);
+    background-color: #f8ad9d;
+    left: 50px;
+}
+.bottom{
+    transform: rotateX(90deg);
+    background-color: #ffdab9;
+    top: 50px;
+}
+.front{
+    transform: translateZ(50px);
+    background-color: #f08080;
+}
+.left{
+    transform: rotateY(90deg);
+    background-color: white;
+    left: -50px;
+    background-color: #f8ad9d;
+}
+.top{
+    transform: rotateX(90deg);
+    background-color: #ffdab9;
+    top: -50px;
+}
+.back{
+    background-color: #f08080;
+    transform: translateZ(-50px);
+}
+.glassFloor{
+    position: absolute;
+    background-color: #a9d6e5;
+    width: 1%;
+    height: 50px;
+    opacity: 0.5;
+}
+.floorBox{
+    transform-style: preserve-3d;
+}
